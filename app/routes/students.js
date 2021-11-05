@@ -10,12 +10,12 @@ export default Ember.Route.extend({
 
     beforeModel()
     {
-        this.transitionTo("teachers");
+        //this.transitionTo("teachers");
     },
 
     afterModel()
     {
-         this.transitionTo("teachers");
+         //this.transitionTo("teachers");
     }
 
 
